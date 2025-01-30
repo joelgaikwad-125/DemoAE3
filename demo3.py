@@ -10,6 +10,9 @@ class Animal:
 
     def eat(self):
         print(f"{self.name} is eating.")
+<
+        
+
     #hello joel gaikwad
 class Vehicle:
     def __init__(self, brand):
@@ -24,6 +27,7 @@ class Vehicle:
     def honk(self):
         print(f"The {self.brand} is honking.")
 
+
 class Student:
     def __init__(self, name, age):
         self.name = name
@@ -37,7 +41,7 @@ class Student:
 
     def Do_take_exam(self):
         print(f"{self.name} is taking an exam.")
-
+###Minor change
 # Example usage:
 dog = Animal("Dog")
 dog.dog_color()
