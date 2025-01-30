@@ -29,13 +29,13 @@ class Student:
         self.name = name
         self.age = age
 
-    def study(self):
+    def Do_study(self):
         print(f"{self.name} is studying.")
 
-    def attend_class(self):
+    def Do_attend_class(self):
         print(f"{self.name} is attending class.")
 
-    def take_exam(self):
+    def Do_take_exam(self):
         print(f"{self.name} is taking an exam.")
 
 # Example usage:
@@ -54,3 +54,4 @@ student.study()
 student.attend_class()
 student.take_exam()
 
+#Hii All im making the changes to the whole code 
