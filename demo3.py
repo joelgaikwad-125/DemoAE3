@@ -24,7 +24,7 @@ class Student:
 
     def Do_take_exam(self):
         print(f"{self.name} is taking an exam.")
-
+###Minor change
 # Example usage:
 dog = Animal("Dog")
 dog.make_sound()
