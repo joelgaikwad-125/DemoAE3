@@ -10,20 +10,7 @@ class Animal:
 
     def eat(self):
         print(f"{self.name} is eating.")
-
-class Vehicle:
-    def __init__(self, brand):
-        self.brand = brand
-
-    def start_engine(self):
-        print(f"The {self.brand} engine is starting.")
-
-    def stop_engine(self):
-        print(f"The {self.brand} engine is stopping.")
-
-    def honk(self):
-        print(f"The {self.brand} is honking.")
-
+        
 class Student:
     def __init__(self, name, age):
         self.name = name
